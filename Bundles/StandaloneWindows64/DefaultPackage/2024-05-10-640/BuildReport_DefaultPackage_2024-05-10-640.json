@@ -1,0 +1,108 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2022.3.14f1",
+        "BuildDate": "2024/5/10 10:40:23",
+        "BuildSeconds": 1,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-05-10-640",
+        "UniqueBundleName": false,
+        "EnableAddressable": false,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 6,
+        "MainAssetTotalCount": 6,
+        "AllBundleTotalCount": 1,
+        "AllBundleTotalSize": 46028,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube 1.prefab",
+            "AssetGUID": "5a85e7ff1451e384eab3a41426f372bd",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube 2.prefab",
+            "AssetGUID": "0f33a04a1a5d6fa4b9431793f1ebd3af",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube.prefab",
+            "AssetGUID": "dd397ecb0f637e6439785654927f5cef",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere 1.prefab",
+            "AssetGUID": "70257e781f1b64a4b808f263bcd56f6b",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere 2.prefab",
+            "AssetGUID": "257787e083d8e2f41b0f37326b7c19d6",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        },
+        {
+            "Address": "",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere.prefab",
+            "AssetGUID": "143ce06b08c5e7447984050f0d65829a",
+            "AssetTags": [],
+            "MainBundleName": "assets_addressableresources_prefabs.bundle",
+            "MainBundleSize": 46028,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "assets_addressableresources_prefabs.bundle",
+            "FileName": "e9c40f4bc602f3c92a7c5790194d5695.bundle",
+            "FileHash": "e9c40f4bc602f3c92a7c5790194d5695",
+            "FileCRC": "ce045ad1",
+            "FileSize": 46028,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/AddressableResources/Prefabs/Cube 1.prefab",
+                "Assets/AddressableResources/Prefabs/Cube 2.prefab",
+                "Assets/AddressableResources/Prefabs/Cube.prefab",
+                "Assets/AddressableResources/Prefabs/Sphere 1.prefab",
+                "Assets/AddressableResources/Prefabs/Sphere 2.prefab",
+                "Assets/AddressableResources/Prefabs/Sphere.prefab"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Texture
+  m_EditorClassIdentifier: 
+  m_GroupName: Texture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 65c2c505df93e8e47a0b0dffcd164a5a
+  m_SerializeEntries:
+  - m_GUID: 23a306b3803adc14281ea68ae100b14b
+    m_Address: "Assets/AddressableResources/Textrue/\u6B63\u65B9\u5F62.png"
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: facb4056fc0d3874984a8d17895f0c70, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9a7a52f2bcbce6749ba885e6c4f0c719, type: 2}
+    - {fileID: 11400000, guid: 74532b546341f59448581bbfeb8309f5, type: 2}
