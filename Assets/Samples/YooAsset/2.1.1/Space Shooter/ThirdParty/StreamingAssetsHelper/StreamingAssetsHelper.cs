@@ -16,6 +16,7 @@ public class GameQueryServices : IBuildinQueryServices
     public bool Query(string packageName, string fileName, string fileCRC)
     {
         // 注意：fileName包含文件格式
+        Debug.Log("hhhhhhhh " + fileName);
         return StreamingAssetsHelper.FileExists(packageName, fileName, fileCRC);
     }
 }

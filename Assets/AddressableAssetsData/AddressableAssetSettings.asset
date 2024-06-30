@@ -69,7 +69,7 @@ MonoBehaviour:
       - m_Id: 5c83d15d811979e46880bba9466cbec3
         m_Value: ServerData/[BuildTarget]
       - m_Id: 1346493f038ba2b4ca3175d2a57ae09e
-        m_Value: 'https://gitee.com/y-person/hy-brid-clr-aa/raw/master/ServerData/StandaloneWindows64 '
+        m_Value: http://192.168.0.101:6677/AA/Android
     m_ProfileEntryNames:
     - m_Id: 88a09d5ab96fa224bb21f1b76e88a073
       m_Name: BuildTarget
@@ -120,7 +120,7 @@ MonoBehaviour:
           m_Key: HostingServiceUploadSpeed
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String
-          m_Data: ServerData/StandaloneWindows64
+          m_Data: ServerData/Android
           m_Key: ContentRoot
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Boolean

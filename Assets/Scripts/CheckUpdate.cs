@@ -13,6 +13,7 @@ using System.Reflection;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using YFramework.Extension;
 
 public class CheckUpdate : MonoBehaviour
 {
@@ -58,19 +59,35 @@ public class CheckUpdate : MonoBehaviour
         {
             var assembly = Assembly.Load(s.bytes);
         }
-       
-        // var type = assembly.GetType("Hello");
+// var type = assembly.GetType("Hello");
         var cubeHandle = Addressables.LoadAssetAsync<GameObject>("Cube");
         yield return cubeHandle;
         if (cubeHandle.Status == AsyncOperationStatus.Succeeded)
         {
             Debug.Log("加载cube成功");
+            yield return new WaitForSeconds(1);
             var cube = Instantiate(cubeHandle.Result);
+            //这里的shader会丢失需要重新复制
+            cube.ReSetShader();
             cube.transform.position = Vector3.zero;
         }
         else
         {
             Debug.Log("加载cube失败");
+        }
+        var cubeHandle1 = Addressables.LoadAssetAsync<GameObject>("Cube 1");
+        yield return cubeHandle1;
+        if (cubeHandle1.Status == AsyncOperationStatus.Succeeded)
+        {
+            Debug.Log("加载cube1成功");
+            var cube = Instantiate(cubeHandle1.Result);
+            //这里的shader会丢失需要重新复制
+            //cube.ReSetShader();
+            cube.transform.position = Vector3.one * 3;
+        }
+        else
+        {
+            Debug.Log("加载cube1失败");
         }
     }
     
@@ -122,6 +139,7 @@ public class CheckUpdate : MonoBehaviour
                     _catalogsKeys.Clear();
                     foreach (var locator in locatorHandle.Result)
                     {
+                        Debug.Log(locator.Keys);
                         _catalogsKeys.AddRange(locator.Keys);
                     }
                     Debug.Log("更新目录资源长度 ：" + _catalogsKeys.Count);

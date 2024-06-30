@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1274846312
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_addressableresources_prefabs.bundle
+      Dependencies: {}

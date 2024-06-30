@@ -1,0 +1,66 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-05-30-1302",
+    "AssetList": [
+        {
+            "Address": "Cube 1",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube 1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Cube 2",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube 2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Cube",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Cube.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Sphere 1",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere 1.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Sphere 2",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere 2.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Sphere",
+            "AssetPath": "Assets/AddressableResources/Prefabs/Sphere.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_addressableresources_prefabs.bundle",
+            "UnityCRC": 4128994514,
+            "FileHash": "790a590d344c1e5c5803a8cc2d21233b",
+            "FileCRC": "d824117e",
+            "FileSize": 123476,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
